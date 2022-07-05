@@ -5,5 +5,5 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ---
 ## Bioinformatics 2
 ###### SS 2021/2022
-##### Exercise sheet 9: Nussinov algorithm
+##### Exercise sheet 10: Introduction to mapping
 ---
