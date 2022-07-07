@@ -1,0 +1,84 @@
+{
+"tests": [
+    {
+      "name": "Exercise 3 - Programming assignment",
+      "setup": "sudo -H pip3 install -r requirements.txt --quiet",
+      "run": "pytest -s ./tests/test_exercise_sheet10.py -k '3a' > tmp",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+    {
+      "name": "Exercise 3 - Programming assignment",
+      "setup": "",
+      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet10.py -k '3b'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+      {
+      "name": "Exercise 3 - Programming assignment",
+      "setup": "",
+      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet10.py -k '3c'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+        {
+      "name": "Exercise 3 - Programming assignment",
+      "setup": "",
+      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet10.py -k '3d'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+        {
+      "name": "Exercise 3 - Programming assignment",
+      "setup": "",
+      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet10.py -k '3e'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+        {
+      "name": "Exercise 3 - Programming assignment",
+      "setup": "",
+      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet10.py -k '3f'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+        {
+      "name": "Exercise 3 - Programming assignment",
+      "setup": "",
+      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet10.py -k '3g'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 8
+    },
+        {
+      "name": "Exercise 3 - Programming assignment",
+      "setup": "",
+      "run": "pytest -s --no-header --tb=no ./tests/test_exercise_sheet10.py -k '3h'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 13
+    }
+  ]
+}
