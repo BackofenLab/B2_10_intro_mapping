@@ -94,7 +94,7 @@ def test_exercise_3e(bwt):
 def test_exercise_3f(bwt):
     actual = transformation_b_ranking(bwt)
     expected = transformation_b_ranking_correct(bwt)
-    assert actual == expected
+    assert actual == expected or actual == [x+1 for x in expected]
 
 
 @pytest.mark.parametrize(
@@ -111,7 +111,7 @@ def test_exercise_3g(bwt):
     "string,bwt",
     zip(TEST_SEQUENCES, TEST_BWTS)
 )
-def test_exercise_3g(string, bwt):
+def test_exercise_3h(string, bwt):
     actual = reverse_bwt(bwt)
     expected = reverse_bwt_correct(bwt)
     assert expected == string, "Alex implementation is wrong. Please write a comment in the ILIAS forum"
