@@ -4,14 +4,14 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 
 ---
 ## Bioinformatics 2
-###### SS 2021/2022
+###### SS 2023
 ##### Exercise sheet 10: Introduction to mapping
 ---
 
 ### _Exercise 4 - Programming Assignment_
-In this exersice you will implement Burrows-Wheeler Transform (BWT) and its inverse.
+In this exercise, you will implement Burrows-Wheeler Transform (BWT) and its inverse.
 
-**a)** In order to start building the Burrows-Wheeler matrix you need to implement a helper function which return all the rotations of the given string.
+**a)** To start building the Burrows-Wheeler matrix, you need to implement a helper function that returns all the rotations of the given string.
 Implement the function `rotations` which takes a string and returns a list of all its rotations.
 
 <details>
@@ -51,9 +51,9 @@ Implement the function `bwt_with_bwm` which takes a string and returns the Burro
 </details>
 
 
-**d)** Check your understandings of the Burrows-Wheeler transform.
-Implement the function `transformation_to_first_colum` which takes the BW transform string t (the last column of the BW matrix) and returns the string which correspond to the first column of the matrix.
-Note that you do not need to build the Burrows-Wheeler matrix to do this.
+**d)** Check your understanding of the Burrows-Wheeler transform.
+Implement the function `transformation_to_first_colum` which takes the BW transform string t (the last column of the BW matrix) and returns the string corresponding to the matrix's first column.
+Just so you know, you do not need to build the Burrows-Wheeler matrix to do this.
 
 <details>
   <summary>Example: (Spoiler)</summary>
